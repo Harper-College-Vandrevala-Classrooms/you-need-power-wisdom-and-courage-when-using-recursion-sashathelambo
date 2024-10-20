@@ -1,4 +1,5 @@
 package com.csc;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,9 +39,9 @@ public class TriangleNumberCalculator {
     public static void main(String[] args) {
         TriangleNumberCalculator calculator = new TriangleNumberCalculator();
 
-        System.out.println("Multiply(3, 4): " + calculator.multiply(3, 4)); 
-        System.out.println("Divide(4, 2): " + calculator.divide(4, 2)); 
-        System.out.println("Sequence(5): " + calculator.sequence(5)); 
-}
+        System.out.println("Multiply(3, 4): " + calculator.multiply(3, 4));
+        System.out.println("Divide(4, 2): " + calculator.divide(4, 2));
+        System.out.println("Sequence(5): " + calculator.sequence(5));
+    }
 
 }
